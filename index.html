@@ -5,9 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Snovio CORS ISSUE</title>
+  <script src="./jquery-3.3.1.min.js"></script>
 </head>
 <body>
-  Snovio CORS Issue Reproduce
-    
+  Snovio CORS Issue Reproduce<br>
+  Open your console to see the error
+  <script>
+    $(document).ready( function() {
+      $.post("https://app.snov.io/oauth/access_token", {
+        "grant_type": "client_credentials",
+        "client_id": "542585ed7403bcedcac932276c8c291e",
+        "client_secret": "9b4899146d6df516c53d46a7f93eb8b6"
+      })
+    })
+  </script>
 </body>
 </html>

@@ -1,0 +1,22 @@
+{
+  "name": "snovioapiissue",
+  "version": "1.0.0",
+  "description": "\"# snovioAPIIssue\"",
+  "main": "jquery-3.3.1.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nickrosendo/snovioAPIIssue.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nickrosendo/snovioAPIIssue/issues"
+  },
+  "homepage": "https://github.com/Nickrosendo/snovioAPIIssue#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
